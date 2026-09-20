@@ -1,0 +1,22 @@
+# Core
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# LLM
+llama-cpp-python>=0.2.90
+
+# Embeddings
+sentence-transformers>=2.7.0
+numpy>=1.26.0
+
+# Telegram
+python-telegram-bot>=21.0
+
+# HTTP / Tools
+requests>=2.31.0
+feedparser>=6.0.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# Utils
+tqdm>=4.66.0

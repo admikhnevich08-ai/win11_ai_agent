@@ -1,0 +1,55 @@
+# === Secrets ===
+.env
+*.token
+*.secret
+
+# === Models (large, 4.7 GB) ===
+models/
+*.gguf
+
+# === Data (generated) ===
+agent_data/*.npy
+agent_data/*.db
+agent_data/*.log
+agent_data/texts.json
+agent_data/hashes.json
+
+# === Logs ===
+*.log
+telegram_bot.log
+agent.log
+
+# === Backups / Archive ===
+_archive/
+*_backup_*.py
+*_backup.py
+*.bak
+*.BROKEN.py
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Agent data (кроме статей, если нужно — уточни)
+agent_data/
+
+# Debug outputs
+bge_test_output*.txt
+*.debug
