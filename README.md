@@ -36,7 +36,7 @@
 
 ```powershell
 
-git clone https://github.com/YOUR\_USERNAME/win11\_ai\_agent.git
+git clone https://github.com/admikhnevich08-ai/win11_ai_agent.git
 
 cd win11\_ai\_agent
 
